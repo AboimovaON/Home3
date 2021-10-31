@@ -15,6 +15,7 @@ public class Main {
         System.out.println();
 
         int n = job.length;
+
         String temp;
 
         for (int i = 0; i < n / 2; i++) {
