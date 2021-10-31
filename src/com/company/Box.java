@@ -17,7 +17,8 @@ public class Box <E extends Fruit>{
         return result;
     }
 
-    public void add(E fruit){boxes.add(fruit);
+    public void add(E fruit){
+        boxes.add(fruit);
     }
 
     public boolean Compare(Box<?> anotherBox){
