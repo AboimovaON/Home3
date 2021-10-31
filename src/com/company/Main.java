@@ -5,6 +5,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
         //1. Написать метод, который меняет два элемента массива местами
         // (массив может быть любого ссылочного типа);
 
@@ -15,6 +16,7 @@ public class Main {
         System.out.println();
 
         int n = job.length;
+
         String temp;
 
         for (int i = 0; i < n / 2; i++) {
