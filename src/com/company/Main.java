@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         //1. Написать метод, который меняет два элемента массива местами
         // (массив может быть любого ссылочного типа);
+
         String[] job = {"Без труда ", " не выловишь ", " рыбку ", " из пруда"};
         for (int i = 0; i < job.length; i++) {
             System.out.print(job[i]);
